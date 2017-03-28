@@ -1,0 +1,31 @@
+var a = prompt ("Vvedite peremennaya A");
+var b = prompt ("Vvedite opiraciya");
+var c = prompt ("Vvedite peremennaya B");
+var result =0;
+
+if ((isNaN(a)==false)&&(isNaN(c)==false)) 
+{
+	switch(b)
+	{
+	case '*': alert(parseFloat(a)*parseFloat(c));break;
+	case '+': alert(parseFloat(a)+parseFloat(c));break;
+	case '-': alert(parseFloat(a)-parseFloat(c));break;
+	case '/': result=(parseFloat(a)/parseFloat(c));
+
+   if (isNaN (result)== false) 
+   {
+   	alert("nevernoe znachenie");
+    }
+    else
+    {
+    	alert(+result.toFixed(3));
+    }
+	break;
+	default:alert('nevernya opiraciya')	;
+}
+
+}
+else
+{
+	alert('nevernya peremennaya');
+}
