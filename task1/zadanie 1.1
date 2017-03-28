@@ -1,0 +1,20 @@
+var a = prompt ("Vvedite skobki");
+var x = 0;
+for (var i = 0; i < a.length; i++) {
+	if (a[i]=="(") {
+		x++;
+	} else if (a[i]==")"){
+		x--;
+	}
+if (x <0){
+	break; 
+} 
+
+}	
+
+if (x==0){
+	alert ("verno");}
+
+	else{
+	alert("ne verno");
+}
