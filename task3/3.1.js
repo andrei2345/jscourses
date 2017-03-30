@@ -1,5 +1,5 @@
 var N = Number(prompt ("Vvedite kol-vo imen  N"));
-var M =Number(prompt ("Vvedite kol-vo imen  N"));
+var M =Number(prompt ("Vvedite kol-vo gorodov  M"));
 var name1 =[];
 var cities =[];
 var humen=[];
