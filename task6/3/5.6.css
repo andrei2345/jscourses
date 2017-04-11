@@ -1,0 +1,12 @@
+table{
+	border:solid black;
+}
+td{
+	border-bottom: solid black;
+	padding: 5px;
+}
+#table{
+	float: right;
+	
+	
+}
