@@ -41,28 +41,17 @@ unevent : function(target,event,func){
 	}
 	},
 
-dispatch: function(target,eT){
-		
-var event = new Event(eT)
-		func=function(){
-			alert("Hi");
+dispatch : function(target,eT){
+		var event = new Event(eT); 
+		if (target.fireEvent=='function') {
+			target.fireEvent('on' + event,event)
 		}
-
-	if(typeof target.attachEvent == "function")	
-	{
-		target.attachEvent('on'+eT+func);
-		target.dispatchEvent(event);
-
-	}	
-else{
-	target.addEventListener(eT,func);
-
-		target.dispatchEvent(event);
-	}
-
-	}
-
-
+		else{
+			target.dispatchEvent(event); 
+		}
+		
+		
+}
 	}
 	
 
