@@ -1,0 +1,63 @@
+[{
+	
+        "name": "5 фактов о космосе",
+        "poster":"1.png",
+        "address":"1.mp4", 
+        "comments":[{
+                     
+                     "commtext": "отзыв 1",
+                     "marks": 6
+        },
+    {     	                     
+           	         "commtext": "отзыв 2 ",
+                     "marks": 3
+        },
+    {       	                    
+           	         "commtext": "отзыв3 ",
+                     "marks": 5
+        },
+    {                               
+                     "commtext": "отзыв9 ",
+                     "marks": 9
+        }]
+},
+
+{
+	 
+        "name": "Полицейский с Рублевки 2 ",
+        "poster":"2.png",
+        "address":"2.mp4", 
+        "comments":[{
+                    
+           	         "commtext": "отзыв 4 ",
+                     "marks": 2
+        },
+    {     	                     
+           	         "commtext": "отзыв 5 ",
+                     "marks":5
+        },
+    {        	                    
+           	         "commtext": "отзыв 6 ",
+                     "marks": 8
+        }]
+},
+
+{
+	    
+        "name": "Реклама",
+        "poster":"3.png",
+        "address":"3.mp4",
+        "comments":[{
+                   
+           	         "commtext": "отзыв 7 ",
+                     "marks": 2
+        },
+    {        	                    
+           	         "commtext": "отзыв 8",
+                     "marks": 1
+        },
+    {        	                   
+           	         "commtext": "отзыв 9",
+                     "marks":5
+        }] 
+}]

@@ -1,0 +1,128 @@
+.player{  background: transparent url("player.png") no-repeat scroll 0 0;
+    width: 760px;
+    height: 55px;
+    position: absolute;
+    left: 48px;
+    top: 502px;}
+.controls {
+   
+    cursor: pointer;
+    height: 39px;
+    left: 19px;
+    position: absolute;
+    top:-4px;
+    width: 750px;
+}
+.controls .play, .controls .pause, .controls .rew, .controls .fwd {
+    background: transparent url("spr.png") no-repeat scroll 0 0;
+    
+}
+.controls .play {
+  background: transparent url("play.png") no-repeat scroll 0 0;
+    float: left;
+   height: 25px;
+    width: 45px;
+}
+
+.controls .pause {
+      background: transparent url("pause.png") no-repeat scroll 0 0;
+    float: left;
+    height: 25px;
+    width: 45px;
+}
+
+.controls .stop {
+      background: transparent url("stop.png") no-repeat scroll 0 0;
+         float: left;
+    height: 25px;
+    width: 45px;
+}
+.controls .rew {
+     background: transparent url("rew.png") no-repeat scroll 0 0;
+    float: left;
+     height: 25px;
+    width: 45px;
+}
+.controls .fwd {
+       background: transparent url("fwd.png") no-repeat scroll 0 0;
+        float: left;
+    height: 25px;
+    width: 45px;
+}
+.full{
+position: absolute;
+    left: 686px;
+    top: 20px;
+    color: red;
+    font-weight: bolder;}
+
+.curtime{
+    position: absolute;
+    left: 655px;
+    top: 20px;
+    color: red;
+    font-weight: bolder;
+}
+.volume  {
+      background: transparent url("vol.png") no-repeat scroll 0 0;
+    height: 23px;
+    left: 184px;
+    position: absolute;
+    top: 20px;
+    width: 34px;
+}
+.mut  {
+      background: transparent url("mut.png") no-repeat scroll 0 0;
+       height: 23px;
+    left: 184px;
+    position: absolute;
+    top: 20px;
+    width: 34px;
+}
+
+
+.progressBar{
+        position: absolute;
+    left: 367px;
+    top: 16px;
+            width: 300px;
+            height: 18px;
+            border: 1px black solid;
+        }
+        .progress{
+            width: 0;
+            height: 100%;
+            background: red;
+        }
+
+.video {
+    position: absolute; 
+        top: 77px;
+    left: 50px;
+    width: 748px;
+    height: 423px;
+}
+img{
+    width:233px;
+    height:150px;
+}
+h3{
+    position: relative;
+    top: -165px;
+    left: 268px;
+    font-family: "YouTube Noto",Roboto,arial,sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: bolder;
+}
+button{
+        position: relative;
+    left: 328px;
+    top: -100px;
+}
+li{
+    
+    position: relative;
+    list-style: none;
+        margin-bottom: -69px;
+}
